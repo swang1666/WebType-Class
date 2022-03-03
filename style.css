@@ -1,0 +1,28 @@
+*{
+  margin: 1.5px;
+}
+h1{
+  color: seashell;
+  border: 5px solid;
+}
+p{
+  color: blue;
+}
+
+.desc{
+  color: green;
+}
+.event{
+  border: 3px;
+  width: 300px;
+  padding: 30px;
+  margin: 20px;
+}
+p{
+  margin-bottom: 30px;
+  margin-left:30px;
+  width:400px;
+font-family: new-order,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
