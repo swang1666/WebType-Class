@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  background-color: #0000a8;
+  cursor: url(img/cursor3.png), auto;
+}
+
+div {
+  display: block;
+}
+
+.left {
+  width: 20%;
+  position: fixed;
+  margin-left: 1%;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.right {
+  width: 67%;
+  margin-left: 20%;
+}
+
+.container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.title1 {
+  margin-top: 5%;
+  margin-left: 0;
+  color: #fff;
+  font-family: 'VT323', monospace;
+  font-size: 3em;
+  letter-spacing: 4px;
+}
+
+.p1 {
+  margin-top: 0;
+  margin-left: 0;
+  color: #bababa;
+  font-family: 'VT323', monospace;
+  font-size: 1.7em;
+  line-height: 30px;
+}
+
+.img1 {
+  margin-left: 10%;
+  width: 45vmax;
+}
+
+.img2 {
+  margin-left: 10%;
+  width: 48vmax;
+}
+
+.note1 {
+  margin-left: 15%;
+  font-family: 'VT323', monospace;
+  color: #bababa;
+  font-size: 1.1em;
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  margin-left: .3in;
+  margin-right: 1in;
+  margin-top: 25%;
+  font-family: 'VT323', monospace;
+  font-size: 1.7em;
+  line-height: 40px;
+  position: relative;
+}
+
+h2::before,
+h2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+h2::before {
+  background: #0000a8;
+  animation: typewriter 4s steps(33) forwards;
+}
+
+h2::after {
+  width: .1em;
+  background: #bababa;
+  animation: typewriter 4s steps(34) forwards, blink 500ms steps(34) infinite;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
