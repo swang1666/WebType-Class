@@ -76,7 +76,7 @@ h2 {
   margin-right: 1in;
   margin-top: 25%;
   font-family: 'VT323', monospace;
-  font-size: 1.7em;
+  font-size: 1.5em;
   line-height: 40px;
   position: relative;
 }
@@ -99,7 +99,7 @@ h2::before {
 h2::after {
   width: .1em;
   background: #bababa;
-  animation: typewriter 4s steps(34) forwards, blink 500ms steps(34) infinite;
+  animation: typewriter 4s steps(42) forwards, blink 500ms steps(34) infinite;
 }
 
 @keyframes typewriter {
