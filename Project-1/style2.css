@@ -58,6 +58,11 @@ div {
   width: 48vmax;
 }
 
+.img4 {
+  margin-left: 0;
+  margin-right: 0;
+  width: 65vmax;
+}
 .note1 {
   margin-left: 15%;
   font-family: 'VT323', monospace;
