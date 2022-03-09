@@ -7,14 +7,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <script>
+   function openSlideMenu(){
+     document.getElementById('menu').style.width = '250px';
+     document.getElementById('content').style.marginLeft='250px';
+  }
+  function closeSlideMenu(){
+    document.getElementById('menu').style.width = '0';
+    document.getElementById('content').style.marginLeft='0';
+ }
+  </script>
   </head>
   <body>
-    <div class="container">
-      <div class="column left">
-        <h3>Introduction</h3>
+    <div id="content">
+      <span class="slide">
+        <a href="#" onclick="openSlideMenu()">...</a>
+      </span>
+      <div id="menu" class="nav">
+        <a href="#" class="close" onclick="closeSlideMenu()">x</a>
+        <a href="#">Introduction</a>
 
-        <h3>Time Line</h3>
       </div>
+    </div>
+    <div class="container">
+
 
       <div class="column right">
         <h2 class="title1">A  Brief Introduction to Monospaced Fonts</h2>

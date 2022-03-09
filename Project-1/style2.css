@@ -8,20 +8,15 @@ div {
   display: block;
 }
 
-.left {
-  width: 20%;
-  position: fixed;
-  margin-left: 1%;
-}
-
 .column {
-  float: left;
-  padding: 10px;
+  float: right;
+  padding: 5px;
 }
 
 .right {
-  width: 67%;
-  margin-left: 20%;
+  width: 70%;
+  margin-left: 0;
+  margin-right: 10%;
 }
 
 .container::after {
@@ -63,12 +58,36 @@ div {
   margin-right: 0;
   width: 65vmax;
 }
+
 .note1 {
   margin-left: 15%;
   font-family: 'VT323', monospace;
   color: #bababa;
   font-size: 1.1em;
   letter-spacing: 1.5px;
+}
+
+.sidebar-left {
+  margin-top: 50%;
+}
+
+a {
+  color: #bababa;
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+  letter-spacing: 1.4px;
+  line-height: 30px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #bababa;
+  color: #0000a8;
+}
+
+a:active {
+  background-color: #bababa;
 }
 
 h2 {
@@ -112,4 +131,8 @@ h2::after {
   to {
     background: transparent;
   }
+}
+
+@media only screen and (max-width: 640px) {
+
 }
