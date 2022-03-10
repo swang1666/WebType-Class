@@ -1,22 +1,15 @@
 * {
   box-sizing: border-box;
-  background-color: #0000a8;
   cursor: url(img/cursor3.png), auto;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #0000a8;
 }
 
 div {
   display: block;
-}
-
-.column {
-  float: right;
-  padding: 5px;
-}
-
-.right {
-  width: 70%;
-  margin-left: 0;
-  margin-right: 10%;
 }
 
 .container::after {
@@ -26,17 +19,19 @@ div {
 }
 
 .title1 {
-  margin-top: 5%;
+  margin-top: 30px;
+  margin-bottom: 30px;
   margin-left: 0;
   color: #fff;
   font-family: 'VT323', monospace;
-  font-size: 3em;
+  font-size: 3.35em;
   letter-spacing: 4px;
 }
 
 .p1 {
   margin-top: 0;
-  margin-left: 0;
+  margin-left: 5%;
+  margin-right: 10%;
   color: #bababa;
   font-family: 'VT323', monospace;
   font-size: 1.7em;
@@ -49,14 +44,20 @@ div {
 }
 
 .img2 {
-  margin-left: 10%;
+  margin-left: 23%;
   width: 48vmax;
 }
 
 .img4 {
-  margin-left: 0;
-  margin-right: 0;
-  width: 65vmax;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 70vmax;
+}
+
+.img5 {
+  margin-left: 24%;
+  margin-right: 5%;
+  width: 48vmax;
 }
 
 .note1 {
@@ -71,23 +72,61 @@ div {
   margin-top: 50%;
 }
 
-a {
-  color: #bababa;
+.nav {
+  height: 100%;
+  width: 0;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: #bababa;
+  padding-top: 20px;
+  transition: .5s;
+  overflow-x: hidden;
+}
+
+.nav a {
+  display: block;
+  padding: 20px 30px;
   font-family: 'VT323', monospace;
-  font-size: 30px;
-  letter-spacing: 1.4px;
-  line-height: 30px;
-  padding: 10px;
+  font-size: 35px;
   text-decoration: none;
-}
-
-a:hover {
-  background-color: #bababa;
   color: #0000a8;
+  line-height: 35px;
 }
 
-a:active {
-  background-color: #bababa;
+.nav a:hover {
+  color: #fff;
+}
+
+.nav .close {
+  position: absolute;
+  margin-top: 0;
+  right: 46px;
+  margin-left: 50px;
+  font-size: 37px;
+}
+
+.guide1 {
+  line-height: 80px;
+}
+
+.slide a {
+  color: #bababa;
+  font-size: 37px;
+  text-decoration: none;
+  font-family: 'VT323', monospace;
+  line-height: 0;
+  margin-bottom: 0;
+}
+
+.slide a:hover {
+  color: #fff;
+}
+
+#content {
+  padding: 20px;
+  transition: margin-left .7s;
 }
 
 h2 {
@@ -134,5 +173,13 @@ h2::after {
 }
 
 @media only screen and (max-width: 640px) {
+  .img4 {
+    margin-left: 5%;
+    width: 45vmax;
+  }
 
+  .img2 {
+    margin-left: 4%;
+    width: 48vmax;
+  }
 }
