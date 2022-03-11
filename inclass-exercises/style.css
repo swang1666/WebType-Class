@@ -1,0 +1,24 @@
+body {
+
+}
+
+@font-face {
+  font-family: Regular;
+  src: url(Regular.otf);
+}
+
+@font-face {
+  font-family: Regular2;
+  src: url(Regular2.otf);
+}
+
+
+.class2 {
+  font-family: Regular;
+  font-size: 4em;
+}
+
+.class1 {
+  font-family: Regular2;
+  font-size: 4em;
+}

@@ -58,6 +58,19 @@ div {
   margin-left: 24%;
   margin-right: 5%;
   width: 48vmax;
+  transition: transform .2s;
+}
+
+.img6 {
+  margin-left: 28%;
+  width: 38vmax;
+  transition: transform .2s;
+}
+
+.img7 {
+  margin-left: 28%;
+  width: 38vmax;
+  transition: transform .2s;
 }
 
 .note1 {
@@ -176,9 +189,30 @@ h2::after {
   .img4 {
     margin-left: 5%;
     width: 45vmax;
+    transition: transform .2s;
+  }
+
+  .img4:hover {
+    transform: scale(1.2);
   }
 
   .img2 {
+    margin-left: 4%;
+    width: 48vmax;
+  }
+
+  .img5 {
+    margin-left: 4%;
+    margin-right: 5%;
+    width: 48vmax;
+  }
+
+  .img6 {
+    margin-left: 15%;
+    width: 38vmax;
+  }
+
+  .img7 {
     margin-left: 4%;
     width: 48vmax;
   }
