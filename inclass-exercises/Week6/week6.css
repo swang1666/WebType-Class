@@ -1,0 +1,20 @@
+.darkmode {
+  background: black;
+  color: white;
+}
+
+.darkmode h1 {
+  color: yellow;
+}
+
+@font-face {
+  font-family: FontDesign-1-Regular;
+  src: url(FontDesign-1-Regular.otf);
+}
+
+p {
+  margin-left: 5%;
+  margin-right: 20%;
+  font-family: FontDesign-1-Regular;
+  font-size: 4em;
+}
