@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta charset="utf-8">
+       	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Week 7</title>
+       	<link rel="stylesheet" type="text/css" href="week7.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+
+    </head>
+    <body>
+      <div class="back1">
+        <img src="background.png" alt="" style="height: 100vh">
+      </div>
+        <section id="intro" class="magmatic">
+            <div id="bigletter">RGC</div>
+        </section>
+        <section id="sliders">
+            <ul>
+                <li data-axes="wght">
+                    <div class="range-name">wght</div>
+                    <div class="min">400</div>
+                    <input data-type="wght" class="range axis-range menu" type="range" min="100" max="900" value="400">
+                    <div class="max">600</div>
+                </li>
+                <li data-axes="wdth">
+                    <div class="range-name">wdth</div>
+                    <div class="min">40</div>
+                    <input data-type="wdth" class="range axis-range menu" type="range" min="40" max="150" value="100">
+                    <div class="max">150</div>
+                </li>
+            </ul>
+        </section>
+        <section id="buttons">
+            <button id="default">Default</button>
+            <button id="random">Random</button>
+        </section>
+
+
+    </body>
+</html>
