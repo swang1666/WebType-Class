@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-  cursor: url('/Users/raven/Documents/GitHub/WebType-Class/inclass-exercises/Week7/img/cursor3.png'), auto;
+  cursor: url('img/cursor3.png'), auto;
 }
 
 @font-face {
@@ -29,22 +29,35 @@ body {
 	color:  black;
 }
 
-.back1 {
-  background-image: url('');
+.largetext {
+  background-color: #9e9e9e;
+  margin: 0;
+  padding-left: 0;
+  text-align: left;
+  font-size: 60vh;
+  position: relative;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
-.wrapper {
-  display: flex;
+.largetext::before {
+  content: attr(data-title);
+  background: linear-gradient(black, black);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  transition: all 1s ease-in-out;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
-.left {
-  height: 100vh;
-  flex: 1;
-}
-
-.right {
-  height: 100vh;
-  flex: 2;
+.largetext:hover::before {
+  width: 100%;
 }
 
 .magmatic, .magmatic * {
@@ -61,6 +74,7 @@ section {
 	line-height: 0.9;
 	text-align: center;
 }
+
 
 #content {
   width: 33em;

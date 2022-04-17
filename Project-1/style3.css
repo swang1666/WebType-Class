@@ -1,8 +1,12 @@
 body {
   margin: 0;
+  cursor: url('img/cursor4.png'), auto;
 }
 
 .container {
+  background-image: url('img/background2.png');
+  background-size: cover;
+  background-attachment: fixed;
   width: 100vw;
   height: 100vh;
   display: grid;
@@ -15,6 +19,8 @@ body {
 
 .container div {
   padding: 10px;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .object1 {
