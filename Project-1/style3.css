@@ -32,3 +32,38 @@ body {
   margin-left: 33%;
   margin-top: 10%;
 }
+
+@media only screen and (max-width: 640px) {
+  .container {
+    background-image: url('img/background2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    box-sizing: border-box;
+  }
+
+  .object1 {
+  display: block;
+  margin-left: 140px;
+  margin-right: 150px;
+  }
+
+  .object2 {
+  display: block;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 0;
+  }
+
+  .object3 {
+  display: block;
+  margin-left: 160px;
+  margin-right: 150px;
+  margin-top: 0;
+  }
+
+}
