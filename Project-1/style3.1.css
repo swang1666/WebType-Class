@@ -42,6 +42,13 @@ p {
   margin: auto;
 }
 
+.img-2 {
+  display: block;
+  width:60%;
+  margin: auto;
+}
+
+
 .middle {
   margin-top: 50px;
 }
@@ -71,6 +78,15 @@ p {
   margin-left: 40px;
 }
 
+figcaption {
+ margin-left: 30%;
+  margin-top: 10px;
+  color: #d5bda4;
+  font-family: courier-std,monospace;
+  font-weight: 400;
+  font-size: .9em;
+  line-height: 1.4em;
+}
 @media only screen and (max-width: 640px) {
   .container-1 {
     width: 100vw;
@@ -81,6 +97,11 @@ p {
     box-sizing: border-box;
   }
 
+  .img-2 {
+    display: block;
+    width:80%;
+    margin: auto;
+  }
   .grid-1 {
   display: none;
   }
@@ -92,3 +113,4 @@ p {
   .box-4 {
   margin-left: 350px;
   }
+}

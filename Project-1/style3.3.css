@@ -80,6 +80,26 @@ p {
   width: 70px;
 }
 
+figcaption {
+ margin-left: 100px;
+  margin-top: 10px;
+  font-family: prestige-elite-std, monospace;
+  font-weight: 600;
+  font-style: normal;
+  font-size: .9em;
+  line-height: 1.4em;
+}
+
+.note1  {
+  margin-left: 20px;
+   margin-top: 10px;
+   font-family: prestige-elite-std, monospace;
+   font-weight: 600;
+   font-style: normal;
+   font-size: .9em;
+   line-height: 1.4em;
+}
+
 @media only screen and (max-width: 640px) {
   .container {
     width: 100vw;
@@ -132,3 +152,14 @@ p {
   .box-4 {
   margin-left: 300px;
   }
+
+  .note1  {
+    margin-left: 110px;
+     margin-top: 10px;
+     font-family: prestige-elite-std, monospace;
+     font-weight: 600;
+     font-style: normal;
+     font-size: .9em;
+     line-height: 1.4em;
+  }
+}

@@ -77,6 +77,19 @@ p {
   height: 40px;
 }
 
+br {
+  display: none;
+}
+
+figcaption {
+ margin-left: 30%;
+  margin-top: 10px;
+  color: #b5b5b5;
+  font-family: 'VT323', monospace;
+  font-size: 1.35em;
+  line-height: 1.5em;
+}
+
 @media only screen and (max-width: 640px) {
 p {
   color: #b5b5b5;
@@ -138,3 +151,17 @@ p {
   .box-4 {
   margin-left: 350px;
   }
+
+  figcaption {
+
+    color: #b5b5b5;
+    font-family: 'VT323', monospace;
+    font-size: 1.35em;
+    line-height: 1.5em;
+  }
+
+  br {
+    display: block;
+  }
+
+}
