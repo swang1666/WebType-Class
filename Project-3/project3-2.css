@@ -1,61 +1,109 @@
-* {
-  margin-right: 0;
-  margin-left: 30px;
-  padding: 0;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 @font-face {
   font-family: Chisel-WeatheringVF;
-  src: url(Chisel-WatheringVF.ttf)
+  src: url(Chisel-WatheringVF.ttf);
 }
 
-.magmatic,
-.magmatic * {
-  font-variation-settings: 'wght' var(--wght);
+:root{
+	--wght: 300;
+	--wdth: 120;
+	--XHGT: 100;
+	--color: black;
 }
 
-:root {
-  --wght: 10;
-}
-
-body {
-  font-family: Chisel-WeatheringVF,sans-serif;
-  text-transform: uppercase;
-}
-
-.intro-1 div {
-  width: 80vw;
-  height: 100vh;
-}
-
-.paragraph-1 {
-  font-size: 8em;
-  color: black;
-  margin: auto;
-  z-index: 2;
-  word-wrap: break-word;
+body{
+  background-image: url('img/clay.webp');
+  background-size: cover;
+  background-attachment: fixed;
+	font-family: 'Chisel-WeatheringVF';
+	font-style: normal;
+	font-size: 1.5em;
+	line-height: 1;
+	margin-bottom: 4rem;
+	color:  var(--color);
   filter: drop-shadow(1px 15px 10px black);
 }
 
-.paragraph-2 {
-  font-size: 4.5em;
-  line-height: 100px;
-  color: black;
-  margin: auto;
-  z-index: 2;
-  word-wrap: break-word;
-  filter: drop-shadow(1px 15px 10px black);
+.magmatic, .magmatic *{
+	font-variation-settings: 'wght' var(--wght),'wdth' var(--wdth), 'XHGT' var(--XHGT);
 }
 
-#bigletter {
-  font-size: 8em;
-  color: black;
-  margin: auto;
-  z-index: 2;
-  word-wrap: break-word;
-  filter: drop-shadow(1px 15px 10px black);
+section{
+  margin-top:90px;
 }
 
-#text-1 {
 
+#intro{
+	font-size: 30vw;
+	line-height: 0.9;
+	text-align: center;
+}
+
+#content{
+	width: 33em;
+	height: 500px;
+	margin: auto;
+	--wght: 900;
+}
+
+#content p{
+	transition: font-variation-settings 400ms ease-in-out;
+}
+
+/*SLIDER STYLES*/
+
+#sliders ul{
+	margin: auto;
+}
+#sliders li{
+	display: flex;
+	justify-content: center;
+  font-size: 1em;
+}
+
+.range-name {
+	width: 200px;
+}
+.min{
+  text-align: center;
+  width: 100px;
+}
+
+.max {
+  text-align: center;
+  width: 100px;
+}
+.range-name::after{
+	content: ': ';
+}
+
+input.axis-range{
+	width: 580px;
+	margin: 0 20px;
+}
+
+
+/*BUTTON STYLES*/
+
+#buttons{
+	text-align: center;
+}
+button{
+	font-family: 'Magmatic', sans-serif;
+	font-variation-settings: 'wght' 100,'wdth' 100, 'XHGT' 0;
+	font-size: 1em;
+	background: white;
+	border-radius: 50%;
+	outline: none;
+	border: 2px solid black;
+	padding: 1em;
+}
+button:hover{
+	color: blue;
+	cursor: pointer;
 }

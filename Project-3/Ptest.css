@@ -25,7 +25,10 @@
   src: url(Chisel-WatheringVF.ttf);
 }
 body{
-  font-family: Chisel-WeatheringVF,sans-serif;
+  background-image: url('img/clay.webp');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Chisel-WeatheringVF;
   text-transform: uppercase;
 	font-size: 30px;
 	line-height: 1.5;
@@ -108,7 +111,7 @@ section{
 	text-align: right;
 }
 .range-name::after{
-	content: ': ';
+	content: ':';
 }
 
 input.axis-range{
@@ -119,20 +122,27 @@ input.axis-range{
 
 /*BUTTON STYLES*/
 
-#buttons{
-	text-align: center;
+.y-coculator {
+  margin-left: 75%;
+  position: fixed;
+  color: black;
+  font-size: .6em;
 }
-button{
-	font-family: 'Magmatic', sans-serif;
-	font-variation-settings: 'wght' 300,'wdth' 100, 'XHGT' 0;
-	font-size: 1em;
-	background: white;
-	border-radius: 50%;
-	outline: none;
-	border: 2px solid black;
-	padding: 1em;
+
+.container-b div {
+
 }
-button:hover{
-	color: blue;
-	cursor: pointer;
+
+#archive-button {
+  display: block;
+  margin: auto;
+  background-color: #333;
+  padding: 15px 32px;
+}
+
+a {
+  text-align: center;
+  color: #fff;
+  margin-left: 0;
+  text-decoration: none;
 }

@@ -48,3 +48,7 @@ $(document).ready(function(){
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
 }
+
+window.addEventListener('mousemove',function(e) {
+    document.getElementById('y-value').textContent = e.y;
+});
