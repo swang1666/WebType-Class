@@ -1,0 +1,138 @@
+*{
+  margin-right: 0;
+  margin-left: 30px;
+  padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Magmatic';
+  src: url('fonts/magmatic-vf.woff2') format('woff2-variations'),
+  url('fonts/magmatic-vf.woff') format('woff-variations'),
+  url('fonts/magmatic-vf.ttf') format('truetype-variations');
+}
+
+:root{
+	--wght: 300;
+	--wdth: 120;
+	--XHGT: 100;
+
+	--color: red;
+}
+
+@font-face {
+  font-family: Chisel-WeatheringVF;
+  src: url(Chisel-WatheringVF.ttf);
+}
+body{
+  font-family: Chisel-WeatheringVF,sans-serif;
+  text-transform: uppercase;
+	font-size: 30px;
+	line-height: 1.5;
+	margin-bottom: 4rem;
+	color:  var(--color);
+}
+
+.magmatic, .magmatic *{
+	font-variation-settings: 'wght' var(--wght),'wdth' var(--wdth), 'XHGT' var(--XHGT);
+}
+
+section{
+  width: 85vw;
+  height: 100vh;
+}
+
+
+#intro{
+	line-height: 1.2;
+}
+
+#content{
+	width: 33em;
+	height: 500px;
+	margin: auto;
+	--wght: 900;
+}
+
+#content p{
+	transition: font-variation-settings 400ms ease-in-out;
+}
+
+.intro-1 div {
+  width: 80vw;
+  height: 100vh;
+}
+
+.paragraph-0 {
+  font-size: 6em;
+  color: black;
+  margin: auto;
+  z-index: 2;
+  word-wrap: break-word;
+  filter: drop-shadow(1px 15px 10px black);
+}
+
+.paragraph-1 {
+  font-size: 4em;
+  color: black;
+  margin: auto;
+  z-index: 2;
+  word-wrap: break-word;
+  filter: drop-shadow(1px 15px 10px black);
+}
+
+.paragraph-2 {
+  font-size: 2.5em;
+  color: black;
+  margin: auto;
+  z-index: 2;
+  word-wrap: break-word;
+  filter: drop-shadow(1px 15px 10px black);
+}
+
+
+/*SLIDER STYLES*/
+
+#sliders ul{
+	margin: auto;
+}
+#sliders li{
+	display: flex;
+	justify-content: center;
+}
+
+.range-name, .min, .max{
+	width: 100px;
+}
+.min{
+	text-align: right;
+}
+.range-name::after{
+	content: ': ';
+}
+
+input.axis-range{
+	width: 580px;
+	margin: 0 20px;
+}
+
+
+/*BUTTON STYLES*/
+
+#buttons{
+	text-align: center;
+}
+button{
+	font-family: 'Magmatic', sans-serif;
+	font-variation-settings: 'wght' 300,'wdth' 100, 'XHGT' 0;
+	font-size: 1em;
+	background: white;
+	border-radius: 50%;
+	outline: none;
+	border: 2px solid black;
+	padding: 1em;
+}
+button:hover{
+	color: blue;
+	cursor: pointer;
+}

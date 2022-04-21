@@ -1,0 +1,61 @@
+* {
+  margin-right: 0;
+  margin-left: 30px;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Chisel-WeatheringVF;
+  src: url(Chisel-WatheringVF.ttf)
+}
+
+.magmatic,
+.magmatic * {
+  font-variation-settings: 'wght' var(--wght);
+}
+
+:root {
+  --wght: 10;
+}
+
+body {
+  font-family: Chisel-WeatheringVF,sans-serif;
+  text-transform: uppercase;
+}
+
+.intro-1 div {
+  width: 80vw;
+  height: 100vh;
+}
+
+.paragraph-1 {
+  font-size: 8em;
+  color: black;
+  margin: auto;
+  z-index: 2;
+  word-wrap: break-word;
+  filter: drop-shadow(1px 15px 10px black);
+}
+
+.paragraph-2 {
+  font-size: 4.5em;
+  line-height: 100px;
+  color: black;
+  margin: auto;
+  z-index: 2;
+  word-wrap: break-word;
+  filter: drop-shadow(1px 15px 10px black);
+}
+
+#bigletter {
+  font-size: 8em;
+  color: black;
+  margin: auto;
+  z-index: 2;
+  word-wrap: break-word;
+  filter: drop-shadow(1px 15px 10px black);
+}
+
+#text-1 {
+
+}

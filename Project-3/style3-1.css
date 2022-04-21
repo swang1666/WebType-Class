@@ -1,19 +1,45 @@
 * {
  margin: 0;
  padding: 0;
- font-family: sans-serif;
 }
 
-body {
-  overflow-x: hidden;
-  background: #fff;
-  min-height: 100vh;
+@font-face {
+  font-family: Chisel-WeatheringVF;
+  src: url(Chisel-WatheringVF.ttf);
 }
 
-#header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%
-  padding: 30px;
+div {
+  margin-left: 5%;
+  margin-right: 0;
+  font-family: Chisel-WeatheringVF;
+  font-size: 4em;
+}
+
+:root {
+  --wght: 50;
+}
+
+.magmatic, .magmatic *{
+	font-variation-settings: 'wght' var(--wght);
+}
+
+
+.text {
+  position: fixed;
+    /* top: 0%; */
+  margin-top: calc(var(--font-size) / -1);
+  font-variation-settings: "wght" var(--font-weight);
+  text-align: center;
+  letter-spacing: -12px;
+  font-size: 0.8em;
+  color: black;
+  margin: auto;
+  z-index: 2;
+  word-wrap: break-word;
+    /* transform: scale(0.9); */
+  filter: drop-shadow(1px 15px 10px black);
+}
+
+.magmatic, .intro *{
+	font-variation-settings: 'wght' var(--wght);
 }
