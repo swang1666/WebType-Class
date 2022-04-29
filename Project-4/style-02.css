@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(rgb(86, 86, 86) ,white ,white ,white ,white ,rgb(86, 86, 86));
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family: lust-sans,sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 3.8em;
+}
+
+.feather-collection {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.feather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-all {
+    opacity: 1;
+}
+
+.bottom {
+    position: absolute;
+  }
+
+.top{
+    position: relative;
+}
+
+.show {
+    display: block;
+    height:200px;
+}
+
+.fade {
+    display: none;
+    height: 200px;
+}
+
+#feather-01 {
+  height: 300px;
+  margin-left: 120px;
+  margin-top: -120px;
+  transition: 0.7s;
+  transform: rotate(-30deg);
+}
+
+#feather-01:hover {
+  height: 330px;
+}
+
+.intro-01 {
+   margin-left: 230px;
+}
+
+#feather-02 {
+    height: 320px;
+    margin-left: 120px;
+    margin-top: 120px;
+    transition: 0.7s;
+    transform: rotate(-140deg);
+  }
+  
+  #feather-02:hover {
+    height: 330px;
+  }
+
+  #feather-03 {
+    height: 320px;
+    margin-left: 120px;
+    margin-top: 70px;
+    transition: 0.7s;
+    transform: rotate(25deg);
+  }
+  
+  #feather-03:hover {
+    height: 330px;
+  }
+
+.hover-img-1 {
+animation-name: header-title;
+animation-duration: 1.2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes header-title {
+  from {
+      transform: translateY(-1rem);
+  }
+  to {
+      transform: translateY(0rem);
+  }
+}

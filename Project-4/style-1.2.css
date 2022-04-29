@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("img/mainpageBG.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family: lust-sans,sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 3.8em;
+}
+
+.mushroom-farm {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.mushroom-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-all {
+    width: 200px;
+    opacity: 1;
+}
+
+.bottom {
+    position: absolute;
+  }
+
+
+
+.top{
+    position: relative;
+}
+/* 
+.show {
+    /* display: block; */
+    opacity: 0;
+    width: 200px;
+} */
+
+
+
+
+.mushroom-all{
+    position: relative;
+}
+
+.mushroom-all:hover .fade{
+    visibility: visible;
+    /* display: block; */
+    opacity: 1;
+    animation-name: header-title;
+animation-duration: 1.2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+
+.mushroom-all .fade {
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+.hover-img {
+    position: absolute;
+    width: 200px;
+}
+
+@keyframes header-title {
+  from {
+      transform: translateY(-1rem);
+  }
+  to {
+      transform: translateY(0rem);
+  }
+}
