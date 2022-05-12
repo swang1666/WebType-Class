@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #dbe7f8, white,white,white, #fbeee8);
+}
+
+/* container-winter setting */
+.container-winter {
+   
+}
+
+.bottom {
+    position: absolute;
+  }
+
+.top{
+    position: relative;
+}
+/* container-winter setting-END */
+
+/* added class to container & two seasons */
+.felx-site {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.feather-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    flex-grow: 1;
+    width: 20%;
+}
+/* added class to container & two seasons-END */
+
+
+/* title setting */
+.titles {
+    display: grid;
+    grid-template-columns: 25% 5% 40% 5% 25%;
+    grid-template-rows: 1fr;
+    justify-content:flex-start;
+    min-height: 15vh;
+    background-image: linear-gradient(rgb(104, 163, 239),rgba(0,0,0,0) );
+    
+}
+
+.title-1 {
+    margin-top: 2%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.title-1:hover {
+    color: #d9620b;
+    transition: 1s;
+  }
+
+  .title-1:hover .fade{
+    margin-top: 2%;
+    visibility: visible;
+    /* display: block; */
+    opacity: 1;
+    animation-name: header-title;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.title-1 .fade {
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+.hover-img {
+    position: absolute;
+}
+
+@keyframes header-title {
+  from {
+      transform: translateY(-1rem);
+  }
+  to {
+      transform: translateY(0rem);
+  }
+}
+
+
+.library-1 {
+    margin-top: 2%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-2 {
+    margin-top: 2%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-2:hover {
+    color: #146ed4;
+    transition: 1s;
+}
+
+.title-2:hover .fade{
+    margin-top: 2%;
+    margin-left: -100px;
+    visibility: visible;
+    /* display: block; */
+    opacity: 1;
+    animation-name: header-title;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.title-2 .fade {
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+.hover-img {
+    position: absolute;
+    width: 200px;
+}
+
+
+@keyframes header-title {
+  from {
+      transform: translateY(-1rem);
+  }
+  to {
+      transform: translateY(0rem);
+  }
+}
+
+h1 {
+    font-family: 'Jura', sans-serif;
+    font-size: 2.55em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.arrow1 {
+    margin-top: 20%;
+    position: relative;
+    text-align: left;
+    -webkit-animation:linear infinite;
+    -webkit-animation-name: run1;
+    -webkit-animation-duration: 2s;
+}
+
+@-webkit-keyframes run1 {
+    0%   {left: 0%;}
+    50%  {left: 20%;}
+    100%  {left: 0%;}
+}
+
+.arrow2 {
+    margin-top: 25%;
+    position: relative;
+    text-align: right;
+    -webkit-animation:linear infinite;
+    -webkit-animation-name: run2;
+    -webkit-animation-duration: 2s;
+
+}
+
+@-webkit-keyframes run2 {
+    0%   {right: 0%;}
+    50%  {right: 20%;}
+    100%  {right: 0%;}
+}
+
+/* title setting-END */
+
+
+/* birds detail setting */
+/* Winter */
+div .winter {
+
+}
+
+div .winter-1 {
+    margin-top: 140px;
+    margin-left: 860px;
+}
+
+div .winter-2 {
+    margin-top: -100px;
+    margin-left: 320px;
+}
+
+div .winter-3 {
+    margin-top: -100px;
+    margin-left: 540px;
+}
+
+div .winter-4 {
+    margin-top: -360px;
+    margin-left: 800px;
+}
+
+div .winter-5 {
+    margin-top: 10px;
+    margin-left: 650px;
+}
+
+div .winter-6 {
+    margin-top: -530px;
+    margin-left: 180px;
+}
+
+div .winter-7 {
+    margin-top: -840px;
+    margin-left: 450px;
+}
+
+div .winter-8 {
+    margin-top: -80px;
+    margin-left: 1080px;
+}
+
+div .winter-9 {
+    margin-top: 330px;
+    margin-left: 1050px;
+}
+
+div .winter-10 {
+    margin-top: -120px;
+    margin-left: 140px;
+}
+
+div .winter-11 {
+    margin-top: -50px;
+    margin-left: 720px;
+}
+
+div .winter-12 {
+    margin-top: -530px;
+    margin-left: 670px;
+}
+div .winter-13 {
+    margin-top: -90px;
+    margin-left: 440px;
+}
+div .winter-14 {
+    margin-top: -80px;
+    margin-left: 1000px;
+}
+div .winter-15 {
+    margin-top: -80px;
+    margin-left: 740px;
+}
+div .winter-16 {
+    margin-top: -460px;
+    margin-left: 280px;
+}
+
+/* Winter-END */
+
+/* Summer */
+div .summer-1 {
+    margin-top: 70px;
+    margin-left: 240px;
+}
+
+div .summer-2 {
+    margin-top: 150px;
+    margin-left: 1040px;   
+}
+
+div .summer-3 {
+    margin-top: -120px;
+    margin-left: 480px;
+}
+
+div .summer-4 {
+    margin-top: -1030px;
+    margin-left: 700px;
+}
+
+div .summer-5 {
+    margin-top: 520px;
+    margin-left: 870px;
+}
+
+div .summer-6 {
+    margin-top: -300px;
+    margin-left: 180px;
+}
+
+div .summer-7 {
+    margin-top: -770px;
+    margin-left: 600px;
+}
+
+div .summer-8 {
+    margin-top: 400px;
+    margin-left: 420px;
+}
+
+div .summer-9 {
+    margin-top: 0px;
+    margin-left: 200px;   
+}
+
+div .summer-10 {
+    margin-top: -440px;
+    margin-left: 1000px;
+}
+
+div .summer-11 {
+    margin-top: 20px;
+    margin-left: 550px;
+}
+
+div .summer-12 {
+    margin-top: 10px;
+    margin-left: 1070px;
+}
+
+div .summer-13 {
+    margin-top: -300px;
+    margin-left: 500px;
+}
+
+
+/* Summer-END */
+/* birds detail setting-END */
+
+/* remove element */
+.remove {
+    display: none;
+ }
+ 
+/* remove element-END */
+
+/* show element */
+.show {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+ /* show element-END */
+
+ img {
+    animation: fadeIn 2s;
+ }
+
+ @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+.blue  {
+    position: fixed;
+    bottom: 0px;
+    margin-right: auto;
+    margin-left: auto; 
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(rgba(0,0,0,0), rgb(239,118,37) );
+}
