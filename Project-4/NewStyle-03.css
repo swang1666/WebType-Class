@@ -344,9 +344,12 @@ div .summer-13 {
     margin-left: 500px;
 }
 
-
 /* Summer-END */
 /* birds detail setting-END */
+
+.title-1-2 {
+    display: none;
+}
 
 /* remove element */
 .remove {
@@ -354,14 +357,6 @@ div .summer-13 {
  }
  
 /* remove element-END */
-
-/* show element */
-.show {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
- }
- /* show element-END */
 
  img {
     animation: fadeIn 2s;
@@ -382,3 +377,89 @@ div .summer-13 {
     height: 10vh;
     background-image: linear-gradient(rgba(0,0,0,0), rgb(239,118,37) );
 }
+
+@media only screen and (max-width: 640px) {
+    .container-winter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        position: static;
+    }
+
+    .container-summer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        position: static;
+    }
+    
+    /* birds detail setting */
+/* Winter */
+div .winter {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+/* Winter-END */
+
+div .summer {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.titles {
+    display: flex;
+    justify-content:flex-start;
+    min-height: 15vh;
+    background-image: linear-gradient(rgb(104, 163, 239),rgba(0,0,0,0) );
+    
+}
+
+.title-2 {
+    margin-left: 30px;
+}
+
+.title-1-2 {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    justify-content:flex-start;
+}
+
+.title-1 {
+    display: none;
+}
+
+.library-1 {
+    display: none;
+}
+
+.hover-img {
+    display: none;
+}
+
+.arrow1 {
+    display: none;
+}
+  
+  }
+  
+
+
+@media only screen and (min-width: 1500px) {
+   
+    .container-winter {
+        margin-left: 4%;
+    }
+
+    .container-summer {
+        margin-left: 4%;
+         }
+  }
+  
