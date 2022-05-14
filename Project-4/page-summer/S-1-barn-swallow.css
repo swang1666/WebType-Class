@@ -47,7 +47,7 @@ hr {
 .p1 {
     width: 80%;
     font-size: 1.3em;
-    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 h1 {
@@ -221,7 +221,9 @@ h3 {
     bottom: 0px;
     margin-right: auto;
     margin-left: auto; 
-    display: flex;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr ;
+    display: grid;
     width: 100vw;
     height: 10vh;
     background-image: linear-gradient(rgba(0,0,0,0), rgb(239,118,37) );
@@ -231,3 +233,179 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.goback {
+    margin-top: 4%;
+    margin-left: 10%; 
+}
+
+
+
+
+@media only screen and (max-width: 640px) {
+
+    .container-title {
+        z-index: 9;
+        position: fixed;
+        display: grid;
+        grid-template-columns: 75% 20%;
+        grid-template-rows: 1fr ;
+        justify-content:flex-start;
+        height: 25vh;
+        width: 100%;
+        background-image: linear-gradient(#df763d, rgba(0,0,0,0));
+    
+    }
+
+
+h1 {
+    font-family: 'Jura', sans-serif;
+    font-size: 2.55em;
+    letter-spacing: .08em;
+}
+
+h2 {
+    text-decoration: none;
+    font-family: 'Jura', sans-serif;
+    font-size: 1.8em;
+    letter-spacing: .08em;
+}
+
+    hr {
+        border: 3px solid black;
+        border-top: 1px solid;
+        border-radius: 5px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    
+    #swallow {
+        margin-top: 45%;
+        margin-left: 7%;
+        width: 400px;
+        animation-name: header-title;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+    }
+
+    .container-half-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding-left: 30px;
+        padding-right: 0;
+        align-items: flex-start;
+    }
+    
+    .container-half-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding-left: 30px;
+        padding-right: 0;
+        align-items: flex-start;
+    }
+    
+    .container-half-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding-left: 30px;
+        padding-right: 0;
+        align-items: flex-start;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .p1 {
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-2 {
+        width: 100%;
+     }
+
+
+    .sky {
+        margin-top: 37%;
+        margin-left: -7%;
+    }
+
+    .birds {
+       display: none;
+    }
+
+    .food {
+        display: flex;
+        margin-top: 160%;
+        margin-left: 20%;
+        animation: none;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .Habitat {
+        margin-top: 120%;
+        margin-left: 25%;
+        margin-right: 0%;
+        animation: none;
+        justify-content: left;
+     }
+
+     .Nesting {
+        margin-top: 25%;
+        margin-right: 0%;
+        animation: none;
+        display: none;
+     }
+
+    .img-0 {
+         width: 400px;
+     }
+
+    .img-2 {
+        width: 300px;
+        animation-name: none;
+        opacity: 0.5;
+   }
+
+   .img-3 {
+    width: 350px;
+    animation-name: none;
+    opacity: 0.5;
+
+}
+
+  .blue  {
+    display: grid;
+    position: fixed;
+    bottom: 0px;
+    margin-right: auto;
+    margin-left: auto; 
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr ;
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(rgba(0,0,0,0), rgb(239,118,37) );
+    justify-content:flex-start;
+    
+}
+
+.goback {
+    margin-top: 10%;
+    margin-left: 20%; 
+}
+
+
+  
+}
+  
