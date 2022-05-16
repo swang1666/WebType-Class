@@ -345,8 +345,8 @@ h2 {
 
     .food {
         display: flex;
-        margin-top: 160%;
-        margin-left: 20%;
+        margin-top: 150%;
+        margin-left: 7%;
         animation: none;
         justify-content: center;
         text-align: center;
@@ -354,8 +354,8 @@ h2 {
     }
 
     .Habitat {
-        margin-top: 210%;
-        margin-left: 25%;
+        margin-top: 160%;
+        margin-left: 50%;
         margin-right: 0%;
         animation: none;
         justify-content: left;
