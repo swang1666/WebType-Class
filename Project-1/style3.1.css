@@ -87,6 +87,7 @@ figcaption {
   font-size: .9em;
   line-height: 1.4em;
 }
+
 @media only screen and (max-width: 640px) {
   .container-1 {
     width: 100vw;

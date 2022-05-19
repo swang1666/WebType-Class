@@ -366,3 +366,8 @@ input.axis-range{
 .disable {
     display: none;
 }
+
+
+@media only screen and (max-width: 640px) {
+
+}
