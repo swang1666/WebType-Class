@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: "Chisel-WatheringVF";
+	src: url('Chisel-WatheringVF.woff2') format('woff2');
+}
+
+body{
+    text-transform: uppercase;
+	font-size: 50px;
+	font-family: Chisel-WatheringVF, sans;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.5;
+	font-variation-settings: 'wdth' 100;
+}
+
+h1,h2,h3,h4,h5{
+	font-weight: normal;
+}
+h1{
+	margin-top: 3em;
+	margin-bottom: 1em;
+	font-size: 100px;
+	line-height: 1.1;
+	/*transition: font-variation-settings 400ms;*/
+	animation: width-animation 1s infinite alternate;
+}
+/*h1:hover{
+	font-variation-settings: 'wdth' 150;
+}*/
+
+@keyframes width-animation {
+	from{
+		font-variation-settings: 'wdth' 1;
+	}
+	to{
+		font-variation-settings: 'wdth' 950;
+	}
+} 
+
+h2{
+	font-size:  1em;
+}
+
+p, ul{
+	font-size: 50px;
+	margin-bottom: 1em;
+}
+.content{
+	flex:  1;
+}
+.image{
+	width: 500px;
+	margin: auto;
+	margin-top: 2em;
+}
+img{
+	width: 100%;
+	display: block;
+	margin: auto;
+	margin-top: 0;
+}
+
+article{
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+}
