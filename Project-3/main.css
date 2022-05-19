@@ -400,8 +400,6 @@ input.axis-range{
 .section-2 {
     background-image: url('img/bg1.png');
     background-size: cover;
-
-    height: 100vh;
     display: flex;
     flex-direction: column;
     font-variation-settings: 'wght' 70;
@@ -422,7 +420,7 @@ input.axis-range{
 .img-2 {
     justify-content: center;
     text-align: center;
-    margin-top: -10%;
+    margin-top: 10%;
     margin-right: 3%;
 }
 
@@ -449,7 +447,7 @@ figure {
 }
 
 .text-3 {
-    margin-top: 80%;
+    margin-top: 100%;
     margin-left: 5%;
     margin-right: 14%;
     font-size: 2em;
@@ -459,16 +457,15 @@ figure {
 .section-4 {
     background-image: url('img/bg3.png');
     background-size: cover;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     font-variation-settings: 'wght' 470;
+   
 }
 
 
 .text-4 {
-    margin-top: 80%;
-    margin-left: 7%;
+    margin-top: 76%;
     margin-right: 10%;
     font-size: 2em;
     letter-spacing: 0.1em;
@@ -476,9 +473,10 @@ figure {
 }
 
 .section-5 {
+margin-left: 0;
+    margin-top: -110%;
     background-image: url('img/bg4.png');
     background-size: cover;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     font-variation-settings: 'wght' 570;
@@ -486,16 +484,15 @@ figure {
 
 
 .text-5 {
-    margin-left: 10%;
     font-size: 2em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 
 .section-6 {
+    margin-top: -120%;
     background-image: url('img/bg5.png');
     background-size: cover;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     font-variation-settings: 'wght' 670;
@@ -503,7 +500,6 @@ figure {
 
 
 .text-6 {
-    margin-top: 5%;
     margin-left: 10%;
     margin-right: 9%;
     font-size: 2em;
@@ -512,16 +508,15 @@ figure {
 }
 
 .section-7 {
+    margin-top: -80%;
     background-image: url('img/bg6.png');
     background-size: cover;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     font-variation-settings: 'wght' 770;
 }
 
 .text-7 {
-    margin-top: 14%;
     margin-left: 10%;
     margin-right: 9%;
     font-size: 2em;
@@ -543,7 +538,6 @@ figure {
 .section-8 {
     background-image: url('img/bg7.png');
     background-size: cover;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     font-variation-settings: 'wght' 870;
@@ -551,7 +545,7 @@ figure {
 
 
 .text-8 {
-    margin-top: 5%;
+    margin-top: -105%;
     margin-left: 10%;
     margin-right: 9%;
     font-size: 2em;
@@ -571,7 +565,7 @@ figure {
 
 
 .text-9 {
-    margin-top: 0%;
+    margin-top: -110%;
     margin-left: 10%;
     margin-right: 9%;
     font-size: 2em;
@@ -582,7 +576,6 @@ figure {
 .section-10 {
     background-image: url('img/bg9.png');
     background-size: cover;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     margin-top: 20%;
@@ -723,3 +716,4 @@ input.axis-range{
 
 
 }
+
