@@ -1,0 +1,176 @@
+[
+  {
+    "Number": 1,
+    "Bird_ID": "American Robin",
+    "URL": "https://www.allaboutbirds.org/guide/American_Robin",
+    "Season": "Winter"
+  },
+  {
+    "Number": 2,
+    "Bird_ID": "American Goldfinch",
+    "URL": "https://www.allaboutbirds.org/guide/American_Goldfinch",
+    "Season": "Winter"
+  },
+  {
+    "Number": 3,
+    "Bird_ID": "ray Catbird",
+    "URL": "https://www.allaboutbirds.org/news/search/?q=ray%20Catbird",
+    "Season": "Winter"
+  },
+  {
+    "Number": 4,
+    "Bird_ID": "Northern Cardinal",
+    "URL": "https://www.allaboutbirds.org/guide/Northern_Cardinal",
+    "Season": "Winter"
+  },
+  {
+    "Number": 5,
+    "Bird_ID": "Song Sparrow",
+    "URL": "https://www.allaboutbirds.org/guide/Song_Sparrow",
+    "Season": "Winter"
+  },
+  {
+    "Number": 6,
+    "Bird_ID": "Dark-eyed Junco",
+    "URL": "https://www.allaboutbirds.org/guide/Dark-eyed_Junco",
+    "Season": "Winter"
+  },
+  {
+    "Number": 7,
+    "Bird_ID": "Tufted Titmouse",
+    "URL": "https://www.allaboutbirds.org/guide/Tufted_Titmouse",
+    "Season": "Winter"
+  },
+  {
+    "Number": 8,
+    "Bird_ID": "Belted Kingfisher",
+    "URL": "https://www.allaboutbirds.org/guide/Belted_Kingfisher",
+    "Season": "Winter"
+  },
+  {
+    "Number": 9,
+    "Bird_ID": "Eastern bluebird",
+    "URL": "https://www.allaboutbirds.org/guide/Eastern_bluebird",
+    "Season": "Winter"
+  },
+  {
+    "Number": 10,
+    "Bird_ID": "Red Crossbill",
+    "URL": "https://www.allaboutbirds.org/guide/Red_Crossbill",
+    "Season": "Winter"
+  },
+  {
+    "Number": 11,
+    "Bird_ID": "Swamp sparrow",
+    "URL": "https://www.allaboutbirds.org/guide/Swamp_sparrow",
+    "Season": "Winter"
+  },
+  {
+    "Number": 12,
+    "Bird_ID": "Purple finch",
+    "URL": "https://www.allaboutbirds.org/guide/Purple_finch",
+    "Season": "Winter"
+  },
+  {
+    "Number": 13,
+    "Bird_ID": "Arctic redpoll",
+    "URL": "https://www.allaboutbirds.org/guide/Hoary_Redpoll/",
+    "Season": "Winter"
+  },
+  {
+    "Number": 14,
+    "Bird_ID": "Carolina Wren",
+    "URL": "https://www.allaboutbirds.org/guide/Carolina_Wren",
+    "Season": "Winter"
+  },
+  {
+    "Number": 15,
+    "Bird_ID": "Golden-crowned kinglet",
+    "URL": "https://www.allaboutbirds.org/guide/Golden-crowned_Kinglet/overview",
+    "Season": "Winter"
+  },
+  {
+    "Number": 16,
+    "Bird_ID": "Red-breasted nuthatch",
+    "URL": "https://www.allaboutbirds.org/guide/Red-breasted_Nuthatch/id",
+    "Season": "Winter"
+  },
+  {
+    "Number": 17,
+    "Bird_ID": "barn-swallow",
+    "URL": "https://www.allaboutbirds.org/guide/Barn_Swallow/",
+    "Season": "Summer"
+  },
+  {
+    "Number": 18,
+    "Bird_ID": "Rusty Blackbird",
+    "URL": "https://www.allaboutbirds.org/guide/Rusty_Blackbird",
+    "Season": "Summer"
+  },
+  {
+    "Number": 19,
+    "Bird_ID": "Palm Warbler",
+    "URL": "https://www.allaboutbirds.org/guide/Palm_Warbler",
+    "Season": "Summer"
+  },
+  {
+    "Number": 20,
+    "Bird_ID": "Common nighthawk",
+    "URL": "https://www.allaboutbirds.org/guide/Common_nighthawk",
+    "Season": "Summer"
+  },
+  {
+    "Number": 21,
+    "Bird_ID": "Yellow-billed cuckoo",
+    "URL": "https://www.allaboutbirds.org/guide/Yellow-billed_cuckoo",
+    "Season": "Summer"
+  },
+  {
+    "Number": 22,
+    "Bird_ID": "Ruby-throated Hummingbird",
+    "URL": "https://www.allaboutbirds.org/guide/Ruby-throated_Hummingbird",
+    "Season": "Summer"
+  },
+  {
+    "Number": 23,
+    "Bird_ID": "Alder flycatcher",
+    "URL": "https://www.allaboutbirds.org/guide/Alder_flycatcher",
+    "Season": "Summer"
+  },
+  {
+    "Number": 24,
+    "Bird_ID": "Grey-cheeked thrush",
+    "URL": "https://www.allaboutbirds.org/guide/Gray-cheeked_Thrush/",
+    "Season": "Summer"
+  },
+  {
+    "Number": 25,
+    "Bird_ID": "Eastern towhee",
+    "URL": "https://www.allaboutbirds.org/guide/Eastern_towhee",
+    "Season": "Summer"
+  },
+  {
+    "Number": 26,
+    "Bird_ID": "Orchard oriole",
+    "URL": "https://www.allaboutbirds.org/guide/Orchard_oriole",
+    "Season": "Summer"
+  },
+  {
+    "Number": 27,
+    "Bird_ID": "Blue-winged Warbler",
+    "URL": "https://www.allaboutbirds.org/guide/Blue-winged_Warbler",
+    "Season": "Summer"
+  },
+  {
+    "Number": 28,
+    "Bird_ID": "Black-and-white Warbler",
+    "URL": "https://www.allaboutbirds.org/guide/Black-and-white_Warbler",
+    "Season": "Summer"
+  },
+  {
+    "Number": 29,
+    "Bird_ID": "Indigo bunting",
+    "URL": "https://www.allaboutbirds.org/guide/Indigo_bunting",
+    "Season": "Summer"
+  }
+]
